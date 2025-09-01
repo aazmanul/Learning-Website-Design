@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 3em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: purple;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: tomato;
+}
+.clr {
+    clear: both;
+}
+.button {
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    border: none;
+}
+.button:hover {
+    background-color: aquamarine;
+}
+.box-1 {
+    background-color: pink;
+    color: grey;
+    border: 5px black solid;
+
+    padding: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.box-1 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.box-1 p {
+    text-align: justify;
+}
+.box-2 {
+    border: 1px dotted #333;
+    padding: 20px;
+    margin: 20px;
+}
+.box-2 h1 {
+    text-align: center;
+}
+.box-2 p {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+.categories {
+    border: 1px solid #333;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding: bottom 20px; ;
+}
+.categories h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+.categories ul {
+    padding: 20px;
+    
+}
+
+.categories li {
+    border-bottom: 1px dotted ;
+}
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+
+}
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+.block {
+    width: 33.3%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.main-block {
+    margin-top: 20px;
+    width: 70%;
+    float: left;
+    border: solid 1px black;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.sidebar {
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: #333;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px;
+}
+.p-box {
+    border: 1px solid black;
+    height: 100px;
+    margin: 20px;
+    position: relative;
+}
+.p-box h1 {
+    top: 50px;
+    position: absolute;
+}
+.p-box h2 {
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+} 
