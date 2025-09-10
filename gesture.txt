@@ -1,0 +1,39 @@
+User-Recommended Settings (via Android Authority):
+
+Recipe A (Less Icon Bounce):
+
+Icon Movement: Damping X/Y = 0.71 / 0.74, Stiffness X/Y = 140, Friction = 0.5
+
+Icon Scale: Damping = 0.81, Stiffness = 515
+
+Tracking Position: 0.21
+
+Wallpaper: Scale = 1.3, Duration = 1.2 s, Blur = Off
+
+Home Screen: Scale = 0.69, Vertical Move = Default (90), Duration = 0.7 s 
+Android Authority
+
+Recipe B (Default with Some Bounce):
+
+Icon Movement: Damping X/Y = 0.73 / 0.73, Stiffness = 85, Friction = 0.1
+
+Icon Scale: Damping = 0.93, Stiffness = 530
+
+Tracking Position: 0.5
+
+Wallpaper: Scale = 1.38, Duration = 1.46 s, Blur = On
+
+Home Screen: Scale = Default (likely 1), Vertical Move = Default (90), Duration = 0.86 s 
+Android Authority
+
+Example from a Samsung Community user:
+
+Icon Movement: Damping = 1.0, Stiffness = 140, Friction = 0.8
+
+Icon Scale: Damping = 0.9, Stiffness = 300, Interpolator = (0.0, 0.0, 1.0, 1.0)
+
+Tracking Position: 1.0
+
+Wallpaper: Scale = 2.0, Duration = 0.9 s, Blur = On
+
+Home Screen: Vertical Move = 140, Duration = 0.9 s
